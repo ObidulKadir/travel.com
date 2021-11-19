@@ -1,0 +1,50 @@
+.container{
+    height: auto;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 4px;
+    grid-template-areas: 
+    "h h h h h h h h h h h h"
+    "s s s s s s s s s s s s"
+    "a2 a2 a2 c c c c c c a1 a1 a1"
+    "f f f f f f f f f f f f";
+
+}
+.header > .navbar{
+    background-color: rgb(167, 167, 167);
+    color: white;
+    font-size: 20px;
+}
+
+.container >section{
+   
+    color: white;
+    
+}
+.header{
+    background-color: aquamarine;
+    grid-area: h;
+}
+.slide{
+    background-color: cadetblue;
+    grid-area: s;
+}
+.aside1{
+    background-color: rgb(100, 134, 65);
+    grid-area: a1;
+
+}
+.content{
+    background-color: crimson;
+    grid-area: c;
+}
+.aside2{
+    background-color: rgb(99, 5, 5);
+    grid-area: a2;
+}
+.footer{
+    background-color: darkslateblue;
+    grid-area: f;
+}
