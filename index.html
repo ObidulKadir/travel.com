@@ -247,7 +247,7 @@
           </div>
 
           <div class="destinations">
-            <h5>Beautiful place</h5>
+            <h5>Beautiful places to visit</h5>
             <div class="d-flex flex-wrap pb-2">
               <div class="col-md-6 destinations-image">
                 <img class="img-fluid" src="images/places/place-1.jpg" alt="" srcset="">
@@ -409,12 +409,110 @@
           </div>
         </section>
         <section class="aside2">
-          
+          <div class="questionsArea p-3">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="questions-content">
+                  <h4>Frequently Asked Questions?</h4>
+                  <div class="list-group">
+                    <li class="list-group-item" data-toggle="collapse" href="#collapseItemInfoOne" role="button" aria-expanded="false" aria-controls="collapseExample" onclick="collapseItems(`plusItemOne`)" ><a>Can I book one way online?</a><span class="float-right" id="plusItemOne">+</span></li>
+                    <div>
+                      <div class="card-body" id="collapseItemInfoOne">
+                        Yes. One-way car rental deals are quite common, as they give people even more freedom to explore and enjoy their rental. However, rental companies will often charge a One Way Fee (or ‘drop charge’) to cover the cost of returning the car to its original location. As the world’s biggest online car rental service, we can help you find a one-way rental car with a low Fee – or no Fee at all.
+                      </div>
+                    </div>
+                    <li class="list-group-item" data-toggle="collapse" href="#collapseItemInfoTwo" role="button" aria-expanded="false" aria-controls="collapseExample" onclick="collapseItems(`plusItemTwo`)"><a>How do i find cheapest car rentals?</a><span class="float-right" id="plusItemTwo">+</span></li>
+                    <div>
+                      <div class="card-body" id="collapseItemInfoTwo">
+                        As the world’s biggest online car rental service, we specialize in finding the cheapest car rental deals from major brands such as Hertz, Avis, Alamo, and Budget. Daily, weekly, or monthly car rentals… just fill in our search form to compare deals from different companies – and find out how much you can save when you rent a car from us.
+                      </div>
+                    </div>
+                    <li class="list-group-item" data-toggle="collapse" href="#collapseItemInfoThree" role="button" aria-expanded="false" aria-controls="collapseExample" onclick="collapseItems(`plusItemThree`)"><a>Do you need car insurance?</a><span class="float-right" id="plusItemThree">+</span></li>
+                    <div class="card-body" id="collapseItemInfoThree">
+                      <p>Before you buy any car rental insurance, you should find out what coverage is provided by your credit card company, your homeowner’s / renter’s policy, and your own car insurance. This will help you decide what cover you need to buy while booking and picking up your car.</p>
+  
+                      <p> CDW means ‘Collision Damage Waiver’; a type of cover that limits your liability for damage to certain parts of a rental car.</p>
+                    </div>
+                    <li class="list-group-item" data-toggle="collapse" href="#collapseItemInfoFourth" role="button" aria-expanded="false" aria-controls="collapseExample" onclick="collapseItems(`plusItemFourth`)"><a>Do i have to payment on the time of booking?</a><span class="float-right" id="plusItemFourth">+</span></li>
+  
+                    <div class="card-body" id="collapseItemInfoFourth">
+                      <p>So car hire for the under-25s or over-70s can be more expensive – which is one more reason to book with travel.com, as we work with all the big brands. Just check each car’s terms and conditions to see if your age would make any difference.</p>
+                    </div>
+  
+                  </div>
+                </div>
+  
+              </div>
+              <div class="col-md-6">
+                <div class="questions-content">
+                  <h4>Additional Informations</h4>
+                  <div class="list-group">
+                    <li class="list-group-item" data-toggle="collapse" href="#collapseItemOne" role="button" aria-expanded="false" aria-controls="collapseExample"  onclick="collapseItems(`plusItemsOne`)"><a>Airports?</a><span class="float-right" id="plusItemsOne">+</span></li>
+                    <div>
+                      <div class="card-body" id="collapseItemOne">
+                        <div class="col-md-12 airports-destinations">
+                          <span><a href="">Bangkok Suvarnabhumi Airport</a></span>
+                          <span><a href="">Basel Airport</a></span>
+                          <span><a href="">Edinburgh Airport</a></span>
+                          <span><a href="">Fiumicino Airport</a></span>
+                          <span><a href="">Doha Airport</a></span>
+                          <span><a href="">Auckland Airport</a></span>
+                          <span><a href="">Dusseldorf Airport</a></span>
+                          <span><a href="">Barcelona Airport</a></span>
+                          <span><a href="">Athens Airport</a></span>
+                          <span><a href="">Bali Airport</a></span>
+                        </div>
+                      </div>
+                    </div>
+                    <li class="list-group-item" data-toggle="collapse" href="#collapseItemTwo" role="button" aria-expanded="false" aria-controls="collapseExample" onclick="collapseItems(`plusItemsTwo`)"><a>Popular Destinations?</a><span class="float-right" id="plusItemsTwo">+</span></li>
+                    <div>
+                      <div class="card-body" id="collapseItemTwo">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <a href="http://">Calgary car
+                            </a>
+                            <a href="">Athens travel</a>
+                            <a href="">Naha car</a>
+                          </div>
+                          <div class="col-md-4">
+                            <a href="http://">Calgary car
+                            </a>
+                            <a href="">Athens homes</a>
+                            <a href="">Naha falls</a>
+                          </div>
+                          <div class="col-md-4">
+                            <a href="http://">Calgary car rental </a>
+                            <a href="">Athens car rental</a>
+                            <a href="">Naha car rental</a>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            </div>
+          </div>
         </section>
         <section class="footer">footer</section>
     </div>
 
-    
+    <script>
+      function collapseItems(id){
+          const idValue = document.getElementById(id).innerText;
+          console.log(idValue =='+')
+          if(idValue == '+'){
+            document.getElementById(id).innerText = '-';
+          }
+          else if(idValue == '-'){
+            document.getElementById(id).innerText = '+';
+          }
+          
+
+      }
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
