@@ -12,7 +12,7 @@ body{
     "h h h h h h h h h h h h"
     "s s s s s s s s s s s s"
     "b b b b b b b b b b b b"
-    "a2 a2 a2 c c c c c c a1 a1 a1"
+    "a1 a1 a1 a1 c c c c c a2 a2 a2"
     "f f f f f f f f f f f f";
 
 }
@@ -45,7 +45,7 @@ body{
 }
 
 .aside1{
-    background-color: rgb(100, 134, 65);
+    background-color: rgb(217, 219, 214);
     grid-area: a1;
 
 }
@@ -105,10 +105,55 @@ body{
     display: flex;
     align-items: center;
 }
-.more-features-items{
-    /* padding: 4px;    */
-}
-
 #brand-row{
     padding: 30px;
+}
+/* worldwide-destinations */
+.destinations{
+    background-color: white;
+    margin: 10px;
+    border: 1px solid rgb(219, 219, 219);
+  
+}
+.destinations h5{
+    padding: 15px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    
+}
+.worldwide-destination, .worldwide-flight-destination{
+    margin-top: -9px;
+    padding: 10px;
+}
+.worldwide-destination li{
+    list-style: none;
+    margin: 7px;
+}
+.worldwide-destination a{
+    background-color: gray;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 5px;
+    
+}
+.worldwide-flight-destination span{
+    display: inline-flex;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.worldwide-flight-destination span:first-child > a{
+    background-color: cadetblue;
+    color: white;
+}
+.worldwide-flight-destination a{
+    background-color: rgb(211, 208, 208);
+    color: black;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+.destinations-image > img{
+    padding: 5px;
 }
