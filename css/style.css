@@ -60,8 +60,9 @@ body{
     grid-area: a2;
 }
 .footer{
-    background-color: darkslateblue;
+    background-color: #081621;
     grid-area: f;
+    color: white;
 }
 /* brand connection */
 .brand-connection h2{
@@ -206,13 +207,96 @@ body{
     font-weight: 600;
     font-size: 22px;
 }
-/* .questions-content > .list-group li::after{
-    content: '\002B';
-    float: right;
-    font-size: 20px;
-} */
+
 .airports-destinations span{
     display: inline-flex;
     margin: 2px 6px;
     padding: 5px;
+}
+/* footer from index.html */
+
+.support,.aboutUs, .connectedOffice{
+    padding: 30px;
+    color: white;
+}
+.support h4, .aboutUs h4, .connectedOffice h4{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.supportContactPhone, .supportContactLocation{
+    display: flex;
+    padding: 10px;
+    padding-left: 25px;
+    width: 100%;
+    border: 1px solid rgb(209, 209, 209);
+    color: white;
+    font-family: "Trebuchet MS", sans-serif;
+    border-radius: 50px;
+    align-items: center;
+    margin: 20px;
+}
+.supportContactPhone i, .supportContactLocation i{
+    font-size: 24px;
+}
+.supportContact h6{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ff844a;
+}
+.supportContact p{
+    font-size: 12px;
+    font-weight: 400;
+    color: gainsboro;
+}
+.supportContact a:hover{
+    border: 1px solid #ff844a;
+    text-decoration: none;  
+}
+.supportContact a:hover i{
+    color: rgb(255, 255, 255);
+}
+.connected-icons a{
+    width: 40px;
+    margin: 2px;
+    background-color: rgba(136, 132, 132, 0.918);
+    border-radius: 30px;
+
+}
+.connected-icons a:hover{
+    background-color: rgb(113, 113, 253); 
+}
+
+.connected-icons a i{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px 12px;
+}
+.aboutUs .row{
+    padding: 12px 8px;   
+}
+.aboutUs .row a{
+    color: #b1b1b1;
+    font-size: 15px;
+}
+.aboutUs .row a:hover{
+    color: #ff844a;
+}
+.connectedOfficeContent{
+    padding: 10px;
+}
+.connectedOfficeContent h5{
+    font-family: "Trebuchet MS", sans-serif;
+    color: #ff844a;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+hr.hrr{
+    
+        border: 1px dotted rgb(255, 251, 251);
+        border-radius: 2px;
+    
 }
