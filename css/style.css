@@ -1,6 +1,3 @@
-body{
-    color: rgb(110, 110, 110);
-}
 .container{
     height: auto;
     display: grid;
@@ -19,7 +16,7 @@ body{
 }
 .header > .navbar{
     background-color: rgb(167, 167, 167);
-    color: white;
+    color: rgb(8, 6, 6);
     font-size: 18px;
 }
 /* slide section */
@@ -299,4 +296,61 @@ hr.hrr{
         border: 1px dotted rgb(255, 251, 251);
         border-radius: 2px;
     
+}
+
+/* login form */
+
+
+.login-form form{
+    padding: 100px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#submitButton, #contactSubmit{
+    padding: 8px 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    border-radius: 25px;
+    font-family: "Trebuchet MS", sans-serif;
+    letter-spacing: 2px;
+    
+}
+.login-form h5, .signup-form h5, .contact-form h5{
+    font-family: "Trebuchet MS", sans-serif;
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* signup form */
+.signup-form h5{
+    color: #ff844a;
+    font-size: 30px;
+}
+.signup-form{
+    color: black;
+    border: 1px solid black;
+    border-start-end-radius: 15px;
+    border-end-start-radius: 15px;
+    padding: 50px;
+    margin: 50px;
+}
+.contact-form{
+    border: 3px dotted salmon;
+    padding: 50px;
+    margin: 50px;
+    color: black;
+    border-radius: 10px;
+}
+#contactSubmit{
+    border-radius: 5px;
+}
+.contact-form .connected-icons{
+    justify-content: center;
 }
